@@ -10,9 +10,13 @@ public class DeleteTopicMsg extends Message {
 	// Constructor, get/set-methods, and toString method
 	// as described in the project text
 
+	/*
+	 * These are not neccecary, why?
+	 */
+	// private MessageType type;
+	// private String user;
 	
-	private MessageType type;
-	private String user;
+	
 	private String topic;
 	
 	/**
@@ -24,16 +28,21 @@ public class DeleteTopicMsg extends Message {
 	}
 	
 	
+	/*
+	 * These are not neccecary, why?
+	 */
+	// public MessageType getType() { return this.type; }
+	// public String getUser() { return this.user; }
+	// public void setUser(String user) { this.user = user; }
+	
+	
 	/**
 	 *  getters and setters ++ more Javadoc
 	 */
-	public MessageType getType() { return this.type; }
-	
-	public String getUser() { return this.user; }
+		
 	
 	public String getTopic() { return this.topic; }
 	
-	public void setUser(String user) { this.user = user; }
 	
 	public void setTopic(String topic) { this.topic = topic; }
 	

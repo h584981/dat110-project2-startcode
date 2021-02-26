@@ -12,8 +12,8 @@ public class PublishMsg extends Message {
 	// Constructor, get/set-methods, and toString method
 	// as described in the project text
 	
-	private MessageType type;
-	private String user;
+	//private MessageType type;
+	//private String user;
 	private String message;
 	private String topic;
 	
@@ -30,9 +30,9 @@ public class PublishMsg extends Message {
 	/**
 	 *  getters and setters ++ more Javadoc
 	 */
-	public MessageType getType() { return this.type; }
+	//public MessageType getType() { return this.type; }
 	
-	public String getUser() { return this.user; }
+	//public String getUser() { return this.user; }
 	
 	public String getTopic() { return this.topic; }
 	
@@ -42,13 +42,14 @@ public class PublishMsg extends Message {
 	
 	public void setMessage(String message) { this.message = message; }
 	
-	public void setUser(String user) { this.user = user; }
+	//public void setUser(String user) { this.user = user; }
 	
 	/**
 	 * toString ++ more Javadoc
 	 */
 	public String toString() { 
-		return "Message [type=" + type + ", user=" + user + ", topic=" + topic + ", messageText=" + message +  "]";
+		//return "Message [type=" + type + ", user=" + user + ", topic=" + topic + ", messageText=" + message +  "]";
+		return super.toString();
 	}
 	
 	

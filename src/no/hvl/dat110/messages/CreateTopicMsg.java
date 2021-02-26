@@ -11,8 +11,13 @@ public class CreateTopicMsg extends Message {
     // as described in the project text	
 	
 	
-	private MessageType type;
-	private String user;
+	/*
+	 * These are not neccecary, why?
+	 */
+	//private MessageType type;
+	// private String user;
+	
+	
 	private String topic;
 	
 	/**
@@ -24,16 +29,20 @@ public class CreateTopicMsg extends Message {
 	}
 	
 	
+	/*
+	 * These are not neccecary, why?
+	 */
+	// public MessageType getType() { return this.type; }
+	// public String getUser() { return this.user; }
+	// public void setUser(String user) { this.user = user; }
+	
+	
 	/**
 	 *  getters and setters ++ more Javadoc
 	 */
-	public MessageType getType() { return this.type; }
-	
-	public String getUser() { return this.user; }
 	
 	public String getTopic() { return this.topic; }
 	
-	public void setUser(String user) { this.user = user; }
 	
 	public void setTopic(String topic) { this.topic = topic; }
 	
