@@ -48,8 +48,8 @@ public class PublishMsg extends Message {
 	 * toString ++ more Javadoc
 	 */
 	public String toString() { 
-		//return "Message [type=" + type + ", user=" + user + ", topic=" + topic + ", messageText=" + message +  "]";
-		return super.toString();
+		return "Message [type=" + super.getType() + ", user=" + super.getUser() + ", topic=" + topic + ", messageText=" + message +  "]";
+		
 	}
 	
 	
