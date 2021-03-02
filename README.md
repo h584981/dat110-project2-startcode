@@ -338,7 +338,7 @@ In this task you are not to implement anything, you just need to integrate the c
 
 Clone the implementation of the ChApp-client which is available as an Eclipse-project from here:
 
-https://github.com/selabhvl/dat110-project2-chapp.git
+https://github.com/selabhvl/dat110-project2-no.hvl.dat110.chapp.git
 
 If using Java 11 SDK (or later), then you will have to download JavaFX for your platform and then configure the project. For Java 8/9/10 JavaFX is included as part of JDK.
 

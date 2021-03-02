@@ -26,6 +26,4 @@ public abstract class Message {
 	public String toString() {
 		return "Message [type=" + type + ", user=" + user + "]";
 	};
-	
-	
 }
